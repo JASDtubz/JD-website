@@ -1,4 +1,4 @@
-/* Version 0.4 */
+/* Version 0.5 */
 body
 {
     background-color: #777777;
@@ -30,7 +30,10 @@ body
 
 .footer
 {
+    background-color: #000000;
     bottom: 0;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
     left: 0;
     position: fixed;
     text-align: left;

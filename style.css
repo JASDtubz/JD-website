@@ -1,4 +1,4 @@
-/* Version 0.5 */
+/* Version 0.6 */
 body
 {
     background-color: #777777;
@@ -26,6 +26,11 @@ body
 {
     color: #ffffff;
     background-color: #555555;
+}
+
+.main
+{
+    padding: 8px 8px;
 }
 
 .footer

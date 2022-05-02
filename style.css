@@ -33,15 +33,20 @@ body
     padding: 4px;
 }
 
+.float-child
+{
+    float: left;
+}
+
 .sidebar
 {
-    float: right;
+    /*float: right;*/
     padding 8px;
 }
 
 .main
 {
-    float: left;
+    /*float: left;*/
     padding: 8px 8px;
     width: 1024px;
 }

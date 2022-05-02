@@ -1,4 +1,4 @@
-/* Version 0.6 */
+/* Version 0.7 */
 body
 {
     background-color: #777777;
@@ -28,8 +28,20 @@ body
     background-color: #555555;
 }
 
+.float-container
+{
+    padding: 4px;
+}
+
+.sidebar
+{
+    float: right;
+    padding 8px;
+}
+
 .main
 {
+    float: left;
     padding: 8px 8px;
     width: 1024px;
 }

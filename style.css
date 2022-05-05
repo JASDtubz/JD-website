@@ -36,7 +36,7 @@ body
 .float-child
 {
     float: left;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .sidebar

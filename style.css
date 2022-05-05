@@ -36,21 +36,21 @@ body
 .float-child
 {
     float: left;
-    /*width: 100%;*/
+    width: 50%;
 }
 
 .sidebar
 {
     float: right;
     padding: 8px;
-    width: 25%
+    width: 50%
 }
 
 .main
 {
     float: left;
     padding: 8px 8px;
-    width: 75%;
+    width: 100%;
 }
 
 .footer

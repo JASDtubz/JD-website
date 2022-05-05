@@ -43,13 +43,14 @@ body
 {
     float: right;
     padding: 8px;
+    width: 20%
 }
 
 .main
 {
     float: left;
     padding: 8px 8px;
-    width: 1024px;
+    width: 75%;
 }
 
 .footer

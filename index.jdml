@@ -66,7 +66,9 @@ html (lang = "en", xml:lang = "en", xmlns = "http://www.w3.org/1999/xhtml") {
                         }
                     }
                     a (target = "_blank") {
-                        Urban Legends
+                        p {
+                            Urban Legends
+                        }
                     }
                     a  (href = "https://jasdtubz.github.io/JD-website/other-links/", target = "_blank") {
                         p {

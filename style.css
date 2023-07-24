@@ -1,4 +1,4 @@
-/* Version 0.10 */
+/* Version 0.11 */
 body
 {
     background-color: #777777;
@@ -27,6 +27,21 @@ body
 {
     color: #ffffff;
     background-color: #555555;
+}
+
+h1
+{
+    color: #ffffff;
+}
+
+h2
+{
+    color: #ffffff;
+}
+
+p
+{
+    color: #ffffff;
 }
 
 .float-container

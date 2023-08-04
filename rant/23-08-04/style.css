@@ -1,0 +1,19 @@
+/* Version */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0%;
+  user-select: none;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  text-align: left;
+  width: 75%;
+}

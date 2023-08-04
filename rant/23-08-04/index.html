@@ -14,11 +14,82 @@
     </title>
   </head>
   <body>
-    <h1>
-      What is the grayist gray?
-    </h1>
-    <p>
-      
-    </p>
+    <center>
+      <div class="main">
+        <h1>
+          What is the grayest gray?
+        </h1>
+        <hr/>
+        <p>
+          &emsp;
+          We all know the hexadecimal values for pure black and pure white is #000000 and #ffffff.
+          But what is the hexadecimal value of gray that is in between those?
+          Also known as 'pure' gray.
+          Well it turns out I have been having a crisis in what is considered the grayest gray.
+          My first answer to this question was #777777 and I thought I was done.
+          Why?
+          Well it is because 7 in hexadecimal is the middle value between 0 and f.
+          Or was it?
+          I decided to verify if this was true.
+          The highest hexadecimal value you can have for a byte is #ff or 255.
+          But disclaimer, this first attempt to solve this problem was not using logical reasoning.
+          I decided to shift everything over by 1 so I can get a round number.
+          So 255 became 256 and 0 became 1.
+          Why?
+          I don't even know myself.
+          After doing 256 / 2 = 128, I shifted everything back 1.
+          So 128 became 127.
+          But it turns out 127 in hexadecimal is #7f7f7f.
+          So what the hell happened?
+          Technically, since using addition and subtraction in this way should not have affected the results, but in this case it did.
+          But little did I know I made a huge mistake.
+          But on the sake of going chronologically, I will continue even with this mistake.
+          I was now stuck with two values that were very similar but were different.
+          I tried to very my work like doing 2 * 127 = 254, but I rejected it for some reason.
+          One thing I did not notice was I forgot how averages work and should have done (256 + 1) / 2 = 127.5.
+          But oh well, I just stuck with #777777 as the grayest gray.
+          <br>
+          <br>
+          &emsp;
+          A little side tangent, the American spelling of gray is with the 'a', but the British spelling is with the 'e'.
+          So when going on JavaFX's default colors, there were 2 of each kind of gray.
+          I will cover the subject of JavaFX's default colors in another paper.
+          But I was thinking of one really stupid solution.
+          Since the French alphabet has a letter that looks like an a and e has been combined together, I was thinking of using this letter instead of a or e to please neither party.
+          So hence the new spelling would be 'Græy'.
+          Or alternatively, instead of using the French letter, because that would require a keyboard change, we just spell it 'Graey'.
+          But not 'Greay', because I think that looks weird.
+          <br>
+          <br>
+          &emsp;
+          But back to the topic at hand.
+          Once I came back to this subject matter I decided to do more careful math.
+          I did 255 / 2 = 127.5.
+          Now I completely did not know what to do since there was a giant decimal in the way.
+          If you do not know already, having a decimal will not allow for a perfect hexadecimal value, since all hexadecimal values used in RGB are whole numbers.
+          This means only 3 things, rounding, ceiling or flooring (also known as truncating).
+          I am an avid user of truncation so naturally that was the first option I did.
+          But I still got 127, which means I got nowhere.
+          So instead of trying to verify why 127 was not #777777 I decided to work on it on paper.
+          I started with #00 and #ff and was trying to see how close I could get them together
+          But instead of doing this, I was doing stupid patterns.
+          00, 11, 22, 33, ..., ee, ff.
+          And I counted up how many there were, 16.
+          And the value from 00 to 11, which was 17.
+          This did not make sense in my head.
+          16 * 17 = 272 and not 256 or 255.
+          Something was clearly wrong in either what I did or how I interpreted the data.
+          But turns out the problem was 0 itself.
+          Because I then did the same thing with adding 0f to every term and I got 18 different values.
+          Now going along with these results made me do 1 thing, subtract 1 from their total values.
+          This got me 15 x 17 consistently, which 15 * 17 = 255.
+          As I got their middle values I folded, because there was now hard evidence for #7f7f7f as the candidate for the grayest gray.
+          But now that I finally agreed that hexadecimal 127.5 is the grayest gray, which one would it be?
+          #7f or #80?
+          For my personal use, I would use #7f7f7f because I am a truncator, but the final conclusion is:
+          We will never see the true grayest gray unless we change our color system.
+        </p>
+      </div>
+    </center>
   </body>
 </html>

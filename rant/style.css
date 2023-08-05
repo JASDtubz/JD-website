@@ -11,6 +11,11 @@ body {
   width: 100%;
 }
 
+.article {
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   color: #000000;
 }

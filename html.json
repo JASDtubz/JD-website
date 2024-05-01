@@ -1,3 +1,114 @@
 {
-  "inner":
+  "inner": [
+    {
+      "tag": "!--",
+      "text": "Version 0.39"
+    },
+    {
+      "tag": "!DOCTYPE",
+      "text": "html"
+    },
+    {
+      "tag": "html",
+      "lang": "en",
+      "xml:lang": "en",
+      "xmlns": "http://www.w3.org/1999/xhtml",
+      "inner": [
+        {
+          "tag": "head",
+          "inner": [
+            {
+              "tag": "title",
+              "inner": [
+                {
+                  "text": "JASDsite"
+                }
+              ]
+            },
+            {
+              "tag": "meta",
+              "charset": "UTF-8"
+            },
+            {
+              "tag": "meta",
+              "content": "Jean-Denis Toting de Beauvoir",
+              "name": "author"
+            },
+            {
+              "tag": "meta",
+              "content": "width=device-width, initial-scale=1",
+              "name": "viewport"
+            },
+            {
+              "tag": "meta",
+              "content": "This is JD's personal website.",
+              "name": "description"
+            },
+            {
+              "tag": "meta",
+              "content": "#ff88bb",
+              "data-n-head": "ssr",
+              "name": "theme-color"
+            },
+            {
+              "tag": "link",
+              "href": "style.css",
+              "rel": "stylesheet"
+            },
+            {
+              "tag": "link",
+              "href": "assets/loshun_upsized.png",
+              "rel": "icon",
+              "type": "image/x-icon"
+            },
+            {
+              "tag": "script",
+              "src": "script.js"
+            }
+          ]
+        },
+        {
+          "tag": "body",
+          "inner": [
+            {
+              "tag": "div",
+              "class": "topnav",
+              "inner": [
+                {
+                  "tag": "a",
+                  "href": "https://www.discord.gg/Pv6agYuc4C"
+                  "target": "_blank"
+                  "inner": [
+                    {
+                      "tag": "img",
+                      "src": "assets/discord.png",
+                      "style": {
+                        "width": "57px",
+                        "height": "32px"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "href": "https://www.youtube.com/channel/UCZfiClikMcRPmW2mLoRSS_Q",
+                  "target": "_blank",
+                  "inner": [
+                    {
+                      "tag": "img",
+                      "src": "assets/youtube.png",
+                      "style": {
+                        "width": "46px",
+                        "height": "32px"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

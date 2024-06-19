@@ -76,8 +76,8 @@
               "inner": [
                 {
                   "tag": "a",
-                  "href": "https://www.discord.gg/Pv6agYuc4C"
-                  "target": "_blank"
+                  "href": "https://www.discord.gg/Pv6agYuc4C",
+                  "target": "_blank",
                   "inner": [
                     {
                       "tag": "img",

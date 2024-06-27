@@ -2,9 +2,7 @@
 !DOCTYPE (html);
 html (lang = "en", xml:lang = "en", xmlns = "http://www.w3.org/1999/xhtml") {
     head {
-        title {
-            JASDsite
-        }
+        title { JASDsite }
         meta (charset = "UTF-8");
         meta (content = "Jean-Denis Toting de Beauvoir", name = "author");
         meta (content = "width=device-width, initial-scale=1", name = "viewport");
@@ -12,8 +10,7 @@ html (lang = "en", xml:lang = "en", xmlns = "http://www.w3.org/1999/xhtml") {
         meta (content = "#ff88bb", data-n-head = "ssr", name = "theme-color");
         link (href = "style.css", rel = "stylesheet");
         link (href = "assets/loshun_upsized.png", rel = "icon", type = "image/x-icon");
-        script (src = "script.js") {
-        }
+        script (src = "script.js") { }
     }
     body {
         div (class = "topnav") {
@@ -33,12 +30,8 @@ html (lang = "en", xml:lang = "en", xmlns = "http://www.w3.org/1999/xhtml") {
         div (class = "float-container") {
             div (class = "float-child") {
                 div (class = "main") {
-                    h1 {
-                        Welcome to JASD's Website
-                    }
-                    h2 {
-                        About Me
-                    }
+                    h1 { Welcome to JASD's Website }
+                    h2 { About Me }
                     p {
                         Hello I am JD and I am a programmer and composer.
                         I am also the founder of the company Loshun Ltd. which is a software company that makes games and other software.
@@ -47,33 +40,21 @@ html (lang = "en", xml:lang = "en", xmlns = "http://www.w3.org/1999/xhtml") {
             }
             div (class = "float-child") {
                 div (class = "sidebar") {
-                    h2 {
-                        Topics
-                    }
+                    h2 { Topics }
                     a {
-                        p {
-                            Loshun Ltd.
-                        }
+                        p { Loshun Ltd. }
                     }
                     a (target = "_blank") {
-                        p {
-                            Applications
-                        }
+                        p { Applications }
                     }
                     a (href = "about:blank", target = "_blank") {
-                        p {
-                            Minecraft  
-                        }
+                        p { Minecraft }
                     }
                     a (target = "_blank") {
-                        p {
-                            Urban Legends
-                        }
+                        p { Urban Legends }
                     }
                     a  (href = "https://jasdtubz.github.io/JD-website/other-links/", target = "_blank") {
-                        p {
-                            Other Sites
-                        }
+                        p { Other Sites }
                     }
                 }
             }
